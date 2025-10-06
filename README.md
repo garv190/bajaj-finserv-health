@@ -157,9 +157,9 @@ The application will display the following execution flow:
 ```
 BAJAJ FINSERV SQL SOLVER - AUTOMATIC EXECUTION STARTED
 ================================================================================
-Candidate: [Your Name]
-Registration Number: [Your RegNo]
-Email: [Your Email]
+Candidate: [Garv]
+Registration Number: [112216020]
+Email: [112216020@ece.iiitp.ac.in]
 Question Type: Even (Question 2 - Employee Age Analysis)
 Architecture: Professional Technical Coder Structure
 ================================================================================
