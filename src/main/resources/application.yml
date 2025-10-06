@@ -1,0 +1,37 @@
+# Bajaj Finserv SQL Solver Application Configuration
+
+# Spring Application Configuration
+spring:
+  application:
+    name: bajaj-finserv-sql-solver
+  
+  # HTTP Client Configuration
+  http:
+    timeout: 30000
+
+# Server Configuration (not needed for this assessment but good practice)
+server:
+  port: 8080
+
+# API Endpoints Configuration
+api:
+  webhook:
+    generate:
+      url: https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA
+    test:
+      url: https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
+
+# Candidate Information (UPDATE THESE WITH YOUR ACTUAL DETAILS)
+candidate:
+  name: "John Doe"                    # UPDATE: Your full name
+  regNo: "REG12346"                   # UPDATE: Your registration number (even for Question 2)
+  email: "john@example.com"           # UPDATE: Your email address
+
+# Logging Configuration
+logging:
+  level:
+    com.finserv.sqlsolver: INFO
+    org.springframework.web.client.RestTemplate: DEBUG
+    org.springframework.http: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
